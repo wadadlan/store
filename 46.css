@@ -1,0 +1,339 @@
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+.first
+{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(4.jpg);
+	background-size:cover;
+	background-repeat: no-repeat;
+	width:100%;
+	height:500px;
+	font-family: 'Cairo', sans-serif;
+	
+	background-position: center;
+	color:white;
+}
+
+.first .container
+{
+	width:90%;
+	margin:auto;
+}
+
+.first .top
+{
+	display:flex;
+	justify-content: space-between;
+}
+
+.first .logo span
+{
+	font-size:40px;
+	font-weight:bold;
+}
+
+.first .logo .un1
+{
+	font-size:20px;
+	color:#FC6E20;
+}
+
+.first .nav
+{
+	position:relative;
+	top:22px;
+
+}
+
+.first .nav ul
+{
+	list-style-type: none;
+
+}
+
+.first .nav ul li
+{
+	display:inline-block;
+	padding:0 15px;
+
+}
+
+.first .nav ul li button
+{
+	border:none;
+	padding:8px;
+	color:white;
+	background-color:#FC6E20;
+	font-family: 'Cairo', sans-serif;
+}
+
+.qote 
+{
+	margin-top:50px;
+}
+
+.qote h1
+{
+	font-size:40px;
+}
+
+.qote .cont .un
+{
+	font-size:40px;
+	
+}
+
+.qote .cont button
+{
+	border:none;
+	padding:8px;
+	font-size:20px;
+	background-color:#FC6E20;
+	color:white;
+	width:14%;
+	font-family: 'Cairo', sans-serif;
+}
+
+.two
+{
+	font-family: 'Cairo', sans-serif;	
+	height:90px;
+	box-shadow:6px 0 10px gray; 
+
+
+}
+
+.two .container
+{
+	width:80%;
+	margin:auto;
+}
+
+.two .book
+{
+	position: relative;
+	top:11px;
+}
+.two .book .no
+{
+	background-color:#FC6E20;
+	font-size:22px;
+	padding:20px;
+	color:white;
+
+}
+
+.two .book .no1
+{
+	font-size:22px;
+}
+
+.two .book .no2
+{
+	font-size:22px;
+}
+.two .book input
+{
+	padding:14px;
+	width:26%;
+	font-size:20px;
+	font-family: 'Cairo', sans-serif;
+}
+
+.two .book button
+{
+	padding:10px;
+	margin-right: 7px;
+	border:none;
+	color:white;
+	font-family: 'Cairo', sans-serif;
+	background-color:#FC6E20;
+
+}
+
+
+.three
+{
+	margin-top:40px;
+	font-family: 'Cairo', sans-serif;
+}
+
+.three .container
+{
+	width:90%;
+	margin:auto;
+}
+
+.three .third
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.three .third .offer
+{
+	margin-top: 40px;
+	margin-right: 120px;
+}
+
+.three .third .offer hr
+{
+	width:100px;
+	border:1px solid black;
+}
+.three .third .des
+{
+	width:40%;
+	font-size:20px;
+}
+
+.four
+{
+	margin-top:40px;
+}
+
+.four .container
+{
+	width:90%;
+	margin:auto;
+}
+
+
+.four .pho
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.four .pho .desti
+{
+	width:31%;
+	padding: 60px;
+}
+
+.five
+{
+	margin-top:30px;
+}
+
+.five .container
+{
+	width:90%;
+	margin:auto;
+}
+
+.five .grid
+{
+	display: grid;
+	grid-template-columns: 20% 80%;
+	grid-template-rows:  180px 180px 180px 180px;
+	grid-gap: 10px;
+}
+
+.five .grid .title1
+{
+	background-color:#FC6E20;
+	color:white;
+	text-align: center;
+	font-family: 'Cairo', sans-serif;
+	box-shadow:6px 0 10px gray; 
+
+}
+
+.five .grid .title1 .mo
+{
+	margin-top:30px;
+
+}
+
+.five .grid .title1 .mo h1
+{
+	font-size:33px;
+}
+.five .grid .title1 .mo span
+{
+	font-size:30px;
+}
+
+.five .grid .title2
+{
+	background-color:#EEE;
+	font-family: 'Cairo', sans-serif;
+	font-size:20px;
+}
+.five .grid .title3
+{
+	background-color:#FC6E20;
+	color:white;
+	text-align: center;
+	font-family: 'Cairo', sans-serif;
+	box-shadow:6px 0 10px gray; 
+
+}
+
+.five .grid .title3 .mo1
+{
+	margin-top:42px;
+}
+
+.five .grid .title3 .mo1 span
+{
+	font-size:30px;
+}
+
+.five .grid .title4
+{
+	background-color:#EEE;
+	font-family: 'Cairo', sans-serif;
+	font-size:20px;
+
+}
+.five .grid .title5
+{
+	background-color:#FC6E20;
+	color:white;
+	text-align: center;
+	font-family: 'Cairo', sans-serif;
+	box-shadow:6px 0 10px gray; 
+}
+
+.five .grid .title5 .mo2
+
+{
+margin-top:42px;
+}
+
+.five .grid .title5 .mo2 span
+{
+	font-size:30px;
+	
+	
+
+
+
+}
+.five .grid .title6
+{
+	background-color:#EEE;
+	font-family: 'Cairo', sans-serif;
+	font-size:20px;
+
+}
+
+.five .opi
+{
+		font-family: 'Cairo', sans-serif;
+		text-align: center;
+}
+
+.five .opi i
+
+{
+	font-size:20px;
+	padding:10px; 
+
+}
